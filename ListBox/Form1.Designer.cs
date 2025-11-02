@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.FruitslistBox = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FruitslistBox
@@ -48,11 +49,21 @@
             this.FruitslistBox.Size = new System.Drawing.Size(120, 384);
             this.FruitslistBox.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(722, 122);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(907, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.FruitslistBox);
             this.Name = "Form1";
             this.Text = "My Textobx Control";
@@ -63,6 +74,7 @@
         #endregion
 
         private System.Windows.Forms.ListBox FruitslistBox;
+        private System.Windows.Forms.Button button1;
     }
 }
 
