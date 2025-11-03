@@ -50,6 +50,12 @@ namespace ListBox
         private void button4_Click(object sender, EventArgs e)
         {
             FruitslistBox.Items.Remove(FruitslistBox.SelectedItem);
+            //FruitslistBox.Items.RemoveAt(FruitslistBox.SelectedIndex);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FruitslistBox.Items.Clear();
         }
     }
 }
