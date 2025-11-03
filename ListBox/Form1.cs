@@ -46,5 +46,10 @@ namespace ListBox
         {
             FruitslistBox.Sorted = true;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FruitslistBox.Items.Remove(FruitslistBox.SelectedItem);
+        }
     }
 }
